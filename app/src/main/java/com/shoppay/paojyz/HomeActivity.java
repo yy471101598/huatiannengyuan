@@ -153,11 +153,6 @@ public class HomeActivity extends Activity{
                         Intent personal=new Intent(ac,PersonalActivity.class);
                         startActivity(personal);
                         break;
-
-                    case "会员列表":
-                        Intent intentlist=new Intent(ac,VipListActivity.class);
-                        startActivity(intentlist);
-                        break;
                     case "管理中心":
                         Intent intent4=new Intent(ac,NewBossCenterActivity.class);
                         startActivity(intent4);

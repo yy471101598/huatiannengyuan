@@ -293,7 +293,7 @@ public class SanJiayouFragment extends Fragment {
         rb_money = (RadioButton) view.findViewById(R.id.rb_money);
         rb_zhifubao = (RadioButton) view.findViewById(R.id.rb_zhifubao);
         rb_wx = (RadioButton) view.findViewById(R.id.rb_wx);
-//        rb_yue= (RadioButton)view. findViewById(R.id.rb_yue);
+        rb_yue= (RadioButton)view. findViewById(R.id.rb_yue);
         rb_qita = (RadioButton) view.findViewById(R.id.rb_qita);
         if (sysquanxian.isweixin == 0) {
             rb_wx.setVisibility(View.GONE);
